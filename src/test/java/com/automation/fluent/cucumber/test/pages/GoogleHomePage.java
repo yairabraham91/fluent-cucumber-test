@@ -19,7 +19,7 @@ public class GoogleHomePage extends BasePage {
     }
 
     public void clickGoogleSearchButton() {
-        $("input", withName("bntK")).click();
+        $("input", withName("btnK")).click();
     }
 
     public void performASearch(String value) {
